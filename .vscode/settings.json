@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "TBESAR",
+        "FPA/wallahi/src",
         "ASD",
-        "FPA\\wallahi\\src",
-        "TBESAR"
+        "PostureCare/src"
     ],
     "java.project.referencedLibraries": {
         "include": [

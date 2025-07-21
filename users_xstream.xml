@@ -1,10 +1,18 @@
 <userData>
   <user>
-    <email>asdf@gmail.com</email>
-    <password>Q@wertyuiop0</password>
+    <email>asdfg@gmail.com</email>
+    <password>Aasdfgh)0</password>
+    <username>asdf</username>
+    <fullName>asdf</fullName>
+    <age>0</age>
+    <bio>Bio belum diatur.</bio>
   </user>
   <user>
-    <email>qw@gmail.com</email>
-    <password>M@0qwerty</password>
+    <email>spacecadet@gmail.com</email>
+    <password>Sp@cecadet1</password>
+    <username>Space</username>
+    <fullName>Space</fullName>
+    <age>0</age>
+    <bio>Bio belum diatur.</bio>
   </user>
 </userData>
