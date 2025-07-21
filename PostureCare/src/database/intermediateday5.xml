@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Intermediate</level>
+    <exercise>
+        <exercise1>The axis</exercise1>
+        <exercise2>Arms behind the head</exercise2>
+        <exercise3>Heel slides</exercise3>
+        <exercise4>Heel slides with knee to chest</exercise4>
+        <exercise5>Straight leg scissors</exercise5>
+        <exercise6>Side forearm plank</exercise6>
+        <exercise7>Leg lift</exercise7>
+        <exercise8>Short plank</exercise8>
+        <exercise9>Table</exercise9>
+        <exercise10>Rolls</exercise10>
+    </exercise>
+    <kalori>
+        <kcal>147 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 5</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/the_axis.png</imagePath1>
+        <imagePath2>/img/arms_behind_the_head.png</imagePath2>
+        <imagePath3>/img/heel_slides.png</imagePath3>
+        <imagePath4>/img/heel_slides_with_knee_to_chest.png</imagePath4>
+        <imagePath5>/img/straight_leg_scissors.png</imagePath5>
+        <imagePath6>/img/side_forearm_plank.png</imagePath6>
+        <imagePath7>/img/leg_lift.png</imagePath7>
+        <imagePath8>/img/short_plank.png</imagePath8>
+        <imagePath9>/img/table.png</imagePath9>
+        <imagePath10>/img/rolls.png</imagePath10>
+    </imagePath>
+</util.Level>

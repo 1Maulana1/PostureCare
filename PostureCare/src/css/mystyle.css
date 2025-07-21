@@ -1,0 +1,190 @@
+.day-bar{
+    -fx-background-radius: 30;
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+    -fx-background-color: #D3D3D3;
+}
+
+.label-transparan{
+    -fx-text-fill: rgba(0,0,0,0.6);
+}
+
+.day-button{
+    -fx-background-color: #828282;
+    -fx-background-radius: 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.2), 4, 0, 0, 2);
+}
+
+.scrollpane-transparan{
+    -fx-background-color: transparent;
+    -fx-border-color: #ffffff00;
+    -fx-border-radius: 10px;
+    -fx-padding: 5px;
+}
+
+.start-button{
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.2), 4, 0, 0, 2);
+}
+
+.label-queue {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-background-color: #f2f2f2;
+    -fx-padding: 8px 12px;
+    -fx-background-radius: 10;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 3, 0.5, 0.0, 0.0);
+    -fx-pref-width: 100%;
+    -fx-max-width: Infinity;
+}
+
+/* Scoped CSS for BeginnerDay1Exercise.fxml only */
+
+.exercise-root {
+    -fx-background-color: linear-gradient(to bottom, #f9f9f9, #e6e6e6);
+    -fx-padding: 20;
+}
+
+/* Label inside exercise-root */
+.exercise-root .label {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 20px;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+/* Specific label styling */
+.exercise-root #infoLevel .label {
+    -fx-text-fill: #000000;
+}
+
+.exercise-root #infoDay .label {
+    -fx-text-fill: #000000;
+}
+
+.exercise-root #infoExercise .label {
+    -fx-text-fill: #000000;
+}
+
+.exercise-root #infoKcal .label {
+    -fx-text-fill: #000000;
+}
+
+.exercise-root #infoTime .label {
+    -fx-font-size: 28px;
+    -fx-text-fill: #222;
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 10 20 10 20;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0, 0, 2);
+}
+
+/* Button base styling */
+.exercise-root .button {
+    -fx-font-size: 18px;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-padding: 8 20 8 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 2, 0, 0, 2);
+}
+
+.exercise-root .button:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+.exercise-root .button:pressed {
+    -fx-background-color: #d0d0d0;
+}
+
+/* Specific buttons */
+.exercise-root #infoStop .button {
+    -fx-background-color: #ff4d4d;
+    -fx-text-fill: white;
+}
+
+.exercise-root #infoPause .button {
+    -fx-background-color: #ffa64d;
+    -fx-text-fill: white;
+}
+
+.exercise-root #infoSkip .button {
+    -fx-background-color: #4da6ff;
+    -fx-text-fill: white;
+}
+/* Styling khusus infoBox di dalam exercise-root */
+.exercise-root #infoBox {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 2px 0 0 0;
+    -fx-border-style: solid;
+    -fx-padding: 20;
+    -fx-spacing: 20;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 6, 0, 0, -2);
+}
+/* Styling untuk VBox yang berisi label (infoExercise, infoLevel, etc) */
+.exercise-root #infoExercise,
+/* .exercise-root #infoLevel,
+.exercise-root #infoDay, */
+.exercise-root #infoKcal,
+.exercise-root #infoTime {
+    -fx-background-color: #f8f8f8;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 4, 0, 0, 1);
+}
+
+/* Optional: efek transisi hover untuk memberikan interaksi */
+.exercise-root #infoExercise:hover,
+/* .exercise-root #infoLevel:hover,
+.exercise-root #infoDay:hover, */
+.exercise-root #infoKcal:hover,
+.exercise-root #infoTime:hover {
+    -fx-background-color: #f0f0f0;
+    -fx-cursor: default;
+}
+
+/* Styling untuk label di dalam box */
+.exercise-root #infoExercise .label,
+/* .exercise-root #infoLevel .label,
+.exercise-root #infoDay .label, */
+.exercise-root #infoKcal .label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #222;
+    -fx-alignment: center;
+}
+.exercise-root #infoCount {
+    -fx-background-color: #fdfdfd;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1;
+    -fx-padding: 10;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 3, 0, 0, 1);
+}
+
+.exercise-root #infoCount .label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #555;
+    -fx-font-weight: bold;
+}

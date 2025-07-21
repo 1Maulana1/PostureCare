@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Beginner</level>
+    <exercise>
+        <exercise1>The clap</exercise1>
+        <exercise2>The circles</exercise2>
+        <exercise3>Forward slopes</exercise3>
+        <exercise4>Heel slides</exercise4>
+        <exercise5>Heel slides with knee to chest</exercise5>
+        <exercise6>Table</exercise6>
+        <exercise7>Short plank</exercise7>
+        <exercise8>Squat to heels</exercise8>
+    </exercise>
+    <kalori>
+        <kcal>91 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 3</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/the_clap.png</imagePath1>
+        <imagePath2>/img/the_circles.png</imagePath2>
+        <imagePath3>/img/forward_slopes.png</imagePath3>
+        <imagePath4>/img/heel_slides.png</imagePath4>
+        <imagePath5>/img/heel_slides_with_knee_to_chest.png</imagePath5>
+        <imagePath6>/img/table.png</imagePath6>
+        <imagePath7>/img/short_plank.png</imagePath7>
+        <imagePath8>/img/squat_to_heels.png</imagePath8>
+    </imagePath>
+</util.Level>

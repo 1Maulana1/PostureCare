@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Advance</level>
+    <exercise>
+        <exercise1>The axis</exercise1>
+        <exercise2>Flexible spine</exercise2>
+        <exercise3>Heel slides</exercise3>
+        <exercise4>Toes to the knee</exercise4>
+        <exercise5>Baby position</exercise5>
+        <exercise6>Baby pose</exercise6>
+        <exercise7>Twists in the arc</exercise7>
+        <exercise8>Assisted side hip raise</exercise8>
+        <exercise9>Side plank on the palms</exercise9>
+        <exercise10>Leg and core lift</exercise10>
+    </exercise>
+    <kalori>
+        <kcal>187 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 6</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/the_axis.png</imagePath1>
+        <imagePath2>/img/flexible_spine.png</imagePath2>
+        <imagePath3>/img/heel_slides.png</imagePath3>
+        <imagePath4>/img/toes_to_the_knee.png</imagePath4>
+        <imagePath5>/img/baby_position.png</imagePath5>
+        <imagePath6>/img/baby_pose.png</imagePath6>
+        <imagePath7>/img/twists_in_the_arc.png</imagePath7>
+        <imagePath8>/img/assisted_side_hip_raise.png</imagePath8>
+        <imagePath9>/img/side_plank_on_the_palms.png</imagePath9>
+        <imagePath10>/img/leg_and_core_lift.png</imagePath10>
+    </imagePath>
+</util.Level>

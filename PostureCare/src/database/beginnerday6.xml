@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Beginner</level>
+    <exercise>
+        <exercise1>Knee steps</exercise1>
+        <exercise2>Shortened plate</exercise2>
+        <exercise3>Alternating knee to the chest</exercise3>
+        <exercise4>Ankle pumps</exercise4>
+        <exercise5>Shoulder blade protraction</exercise5>
+        <exercise6>Shoulder to the ears</exercise6>
+        <exercise7>Deflection</exercise7>
+        <exercise8>Head nod</exercise8>
+    </exercise>
+    <kalori>
+        <kcal>81 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 6</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/knee_steps.png</imagePath1>
+        <imagePath2>/img/shortened_plate.png</imagePath2>
+        <imagePath3>/img/alternating_knee_to_the_chest.png</imagePath3>
+        <imagePath4>/img/ankle_pumps.png</imagePath4>
+        <imagePath5>/img/shoulder_blade_protraction.png</imagePath5>
+        <imagePath6>/img/shoulder_to_the_ears.png</imagePath6>
+        <imagePath7>/img/deflection.png</imagePath7>
+        <imagePath8>/img/head_nod.png</imagePath8>
+    </imagePath>
+</util.Level>

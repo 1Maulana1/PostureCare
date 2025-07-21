@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Beginner</level>
+    <exercise>
+        <exercise1>The spinner</exercise1>
+        <exercise2>Shoulder circles</exercise2>
+        <exercise3>The hammer</exercise3>
+        <exercise4>A hundred</exercise4>
+        <exercise5>Reverse crunch</exercise5>
+        <exercise6>Scissors</exercise6>
+        <exercise7>Straight leg scissors</exercise7>
+        <exercise8>Twists in the arc</exercise8>
+    </exercise>
+    <kalori>
+        <kcal>95 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 7</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/the_spinner.png</imagePath1>
+        <imagePath2>/img/shoulder_circles.png</imagePath2>
+        <imagePath3>/img/the_hammer.png</imagePath3>
+        <imagePath4>/img/a_hundred.png</imagePath4>
+        <imagePath5>/img/reverse_crunch.png</imagePath5>
+        <imagePath6>/img/scissors.png</imagePath6>
+        <imagePath7>/img/straight_leg_scissors.png</imagePath7>
+        <imagePath8>/img/twists_in_the_arc.png</imagePath8>
+    </imagePath>
+</util.Level>

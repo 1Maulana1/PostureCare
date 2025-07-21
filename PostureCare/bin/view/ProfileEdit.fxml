@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Circle?>
+
+<BorderPane styleClass="profile-page-root" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProfileEditController">
+   <top>
+      <HBox alignment="CENTER_LEFT" spacing="20.0">
+         <children>
+            <Button onAction="#handleCancel" styleClass="icon-button">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image><Image url="@../assets/back-arrow.png" /></image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label styleClass="page-title" text="Edit Profil" />
+         </children>
+         <BorderPane.margin><Insets bottom="20.0" /></BorderPane.margin>
+      </HBox>
+   </top>
+   
+   <left>
+      <VBox alignment="TOP_CENTER" spacing="15.0" styleClass="card, profile-sidebar-card">
+         <ImageView fx:id="profileImageView" fitHeight="150.0" fitWidth="150.0">
+            <clip><Circle radius="75" centerX="75" centerY="75" /></clip>
+         </ImageView>
+         <Button onAction="#handleUploadImage" text="Ganti Foto" maxWidth="Infinity" />
+      </VBox>
+   </left>
+   
+   <center>
+      <VBox spacing="20.0" styleClass="profile-content-pane">
+         <VBox styleClass="card" spacing="15.0">
+             <GridPane hgap="15.0" vgap="15.0">
+                <Label text="Nama Lengkap:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                <TextField fx:id="fullNameField" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                <TextField fx:id="usernameField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                <TextField fx:id="emailField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Label text="Umur:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                <TextField fx:id="ageField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <Label text="Bio:" alignment="TOP_LEFT" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+                <TextArea fx:id="bioField" prefRowCount="4" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <Label text="Password Baru:" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+                <PasswordField fx:id="passwordField" promptText="(Kosongkan jika tidak diubah)" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+             </GridPane>
+             <HBox alignment="CENTER_RIGHT" spacing="20.0">
+                <Button onAction="#handleSave" styleClass="button-primary" text="Simpan Perubahan" />
+                <Button onAction="#handleCancel" text="Batal" />
+             </HBox>
+         </VBox>
+      </VBox>
+   </center>
+</BorderPane>

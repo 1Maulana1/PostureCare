@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Intermediate</level>
+    <exercise>
+        <exercise1>The parallel</exercise1>
+        <exercise2>Wide slopes</exercise2>
+        <exercise3>Twisting crunches</exercise3>
+        <exercise4>Reverse bridge with complication</exercise4>
+        <exercise5>Lying arm circle</exercise5>
+        <exercise6>Leg and core lift</exercise6>
+        <exercise7>Leg lift</exercise7>
+        <exercise8>Cat 1</exercise8>
+        <exercise9>Cat 2</exercise9>
+        <exercise10>Squat to heels</exercise10>
+    </exercise>
+    <kalori>
+        <kcal>150 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 7</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/the_parallel.png</imagePath1>
+        <imagePath2>/img/wide_slopes.png</imagePath2>
+        <imagePath3>/img/twisting_crunches.png</imagePath3>
+        <imagePath4>/img/reverse_bridge_with_complication.png</imagePath4>
+        <imagePath5>/img/lying_arm_circle.png</imagePath5>
+        <imagePath6>/img/leg_and_core_lift.png</imagePath6>
+        <imagePath7>/img/leg_lift.png</imagePath7>
+        <imagePath8>/img/cat_1.png</imagePath8>
+        <imagePath9>/img/cat_2.png</imagePath9>
+        <imagePath10>/img/squat_to_heels.png</imagePath10>
+    </imagePath>
+</util.Level>

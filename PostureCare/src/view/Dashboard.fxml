@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="mainBorderPane" prefHeight="720.0" prefWidth="1280.0" styleClass="root-pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController">
+   
+   <top>
+      <VBox styleClass="header-container">
+         <children>
+               <HBox alignment="CENTER_LEFT" prefHeight="60.0" spacing="15.0">
+                  <children>
+                     <Text fill="#5d9cec" styleClass="logo-text" text="PostureCare" />
+
+                     <Pane HBox.hgrow="ALWAYS" />
+
+                     <Button mnemonicParsing="false" onAction="#handleNotificationsClick" styleClass="icon-button">
+                           <graphic>
+                              <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                 <image><Image url="@../assets/bell.png" /></image>
+                              </ImageView>
+                           </graphic>
+                     </Button>
+                     <Button mnemonicParsing="false" onAction="#handleSettingsClick" styleClass="icon-button">
+                           <graphic>
+                              <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                 <image><Image url="@../assets/settings.png" /></image>
+                              </ImageView>
+                           </graphic>
+                     </Button>
+                     <Button mnemonicParsing="false" onAction="#handleProfileClick" styleClass="icon-button">
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image><Image url="@../assets/user.png" /></image>
+                              </ImageView>
+                           </graphic>
+                     </Button>
+                  </children>
+               </HBox>
+               <Label fx:id="greetingLabel" styleClass="greeting-text" text="Halo, Nama Pengguna" />
+         </children>
+      </VBox>
+   </top>
+   
+   <left>
+      <VBox prefWidth="250.0" spacing="10.0" styleClass="left-sidebar">
+         <children>
+            <Label styleClass="sidebar-title" text="History Exercise" />
+            <ListView fx:id="historyListView" onMouseClicked="#handleHistoryClick" styleClass="history-list" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+   </left>
+   
+   <center>
+      <ScrollPane fitToWidth="true" hbarPolicy="NEVER" styleClass="scroll-pane-center">
+         <content>
+            <VBox spacing="25.0" styleClass="center-content">
+               <StackPane onMouseClicked="#handleArticleClick" styleClass="card, article-card">
+                  <children>
+                     <VBox prefHeight="200.0" prefWidth="100.0">
+                        <children>
+                           <Label styleClass="card-title" text="Artikel" />
+                           <ScrollPane fitToHeight="true" fitToWidth="false" hbarPolicy="ALWAYS" style="-fx-padding: 10;" vbarPolicy="NEVER">
+                              <content>
+                                 <HBox spacing="10" style="-fx-padding: 10;">
+                                    <children>
+                                       <ImageView fx:id="artikel1Image" onMouseClicked="#handleArtikelClick" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                          <image>
+                                             <Image url="@../assets/artikel1.png" />
+                                          </image>
+                                       </ImageView>
+                                       <ImageView fx:id="artikel2Image" onMouseClicked="#handleArtikelClick" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                          <image>
+                                             <Image url="@../assets/artikel2.png" />
+                                          </image>
+                                       </ImageView>
+                                       <ImageView fx:id="artikel3Image" onMouseClicked="#handleArtikelClick" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                          <image>
+                                             <Image url="@../assets/artikel3.png" />
+                                          </image>
+                                       </ImageView>
+                                       <ImageView fx:id="artikel4Image" onMouseClicked="#handleArtikelClick" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                          <image>
+                                             <Image url="@../assets/artikel4.png" />
+                                          </image>
+                                       </ImageView>
+                                       <ImageView fx:id="artikel5Image" onMouseClicked="#handleArtikelClick" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                          <image>
+                                             <Image url="@../assets/artikel5.png" />
+                                          </image>
+                                       </ImageView>
+                                       <ImageView fx:id="artikel6Image" onMouseClicked="#handleArtikelClick" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                          <image>
+                                             <Image url="@../assets/artikel6.png" />
+                                          </image>
+                                       </ImageView>
+                                    </children>
+                                 </HBox>
+                              </content>
+                           </ScrollPane>
+                        </children>
+                     </VBox>
+                  </children>
+               </StackPane>
+               
+               <HBox alignment="CENTER" spacing="25.0">
+                  <children>
+                     <VBox alignment="CENTER" onMouseClicked="#handleBeginnerClick" styleClass="card, level-card" HBox.hgrow="ALWAYS">
+                        <Label text="Beginner" />
+                     </VBox>
+                     <VBox alignment="CENTER" onMouseClicked="#handleIntermediateClick" styleClass="card, level-card" HBox.hgrow="ALWAYS">
+                        <Label text="Intermediate" />
+                     </VBox>
+                     <VBox alignment="CENTER" onMouseClicked="#handleAdvancedClick" styleClass="card, level-card" HBox.hgrow="ALWAYS">
+                        <Label text="Advanced" />
+                     </VBox>
+                  </children>
+               </HBox>
+               
+               <VBox onMouseClicked="#handleChartClick" styleClass="card, chart-card" VBox.vgrow="ALWAYS">
+                  <children>
+                     <Label styleClass="card-title" text="Ringkasan Progres Latihan" />
+                     <LineChart fx:id="progressChart" prefHeight="300" prefWidth="600">
+                        <xAxis>
+                            <CategoryAxis label="Hari"/>
+                        </xAxis>
+                        <yAxis>
+                            <NumberAxis label="Kalori"/>
+                        </yAxis>
+                    </LineChart>
+                    
+                  </children>
+               </VBox>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </center>
+</BorderPane>

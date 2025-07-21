@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Intermediate</level>
+    <exercise>
+        <exercise1>The circles</exercise1>
+        <exercise2>The spinner</exercise2>
+        <exercise3>Cat 1</exercise3>
+        <exercise4>Cat 2</exercise4>
+        <exercise5>Dynamic plank</exercise5>
+        <exercise6>Shortened plate</exercise6>
+        <exercise7>Single leg lift</exercise7>
+        <exercise8>Sideway head lift with hold</exercise8>
+        <exercise9>Sideways head lift</exercise9>
+    </exercise>
+    <kalori>
+        <kcal>145 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 4</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/the_circles.png</imagePath1>
+        <imagePath2>/img/the_spinner.png</imagePath2>
+        <imagePath3>/img/cat_1.png</imagePath3>
+        <imagePath4>/img/cat_2.png</imagePath4>
+        <imagePath5>/img/dynamic_plank.png</imagePath5>
+        <imagePath6>/img/shortened_plate.png</imagePath6>
+        <imagePath7>/img/single_leg_lift.png</imagePath7>
+        <imagePath8>/img/sideway_head_lift_with_hold.png</imagePath8>
+        <imagePath9>/img/sideways_head_lift.png</imagePath9>
+    </imagePath>
+</util.Level>

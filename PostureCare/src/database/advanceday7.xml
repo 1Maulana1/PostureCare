@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Advance</level>
+    <exercise>
+        <exercise1>The parallel</exercise1>
+        <exercise2>Wide slopes</exercise2>
+        <exercise3>The hammer</exercise3>
+        <exercise4>Arms behind the head</exercise4>
+        <exercise5>Heel slides with knee to chest</exercise5>
+        <exercise6>Leg lift 1</exercise6>
+        <exercise7>Leg lift 2</exercise7>
+        <exercise8>Sideways head lift</exercise8>
+        <exercise9>Knee steps</exercise9>
+        <exercise10>Table</exercise10>
+    </exercise>
+    <kalori>
+        <kcal>177 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 7</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/the_parallel.png</imagePath1>
+        <imagePath2>/img/wide_slopes.png</imagePath2>
+        <imagePath3>/img/the_hammer.png</imagePath3>
+        <imagePath4>/img/arms_behind_the_head.png</imagePath4>
+        <imagePath5>/img/heel_slides_with_knee_to_chest.png</imagePath5>
+        <imagePath6>/img/leg_lift_1.png</imagePath6>
+        <imagePath7>/img/leg_lift_2.png</imagePath7>
+        <imagePath8>/img/sideways_head_lift.png</imagePath8>
+        <imagePath9>/img/knee_steps.png</imagePath9>
+        <imagePath10>/img/table.png</imagePath10>
+    </imagePath>
+</util.Level>

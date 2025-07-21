@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Intermediate</level>
+    <exercise>
+        <exercise1>The clap</exercise1>
+        <exercise2>Shoulder circles</exercise2>
+        <exercise3>Forward slopes</exercise3>
+        <exercise4>Knee steps</exercise4>
+        <exercise5>Side plank on the palms</exercise5>
+        <exercise6>Both leg lift</exercise6>
+        <exercise7>Reverse crunch</exercise7>
+        <exercise8>Cross over crunch</exercise8>
+        <exercise9>Dead bug</exercise9>
+        <exercise10>Toes to the knee</exercise10>
+    </exercise>
+    <kalori>
+        <kcal>150 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 6</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/the_clap.png</imagePath1>
+        <imagePath2>/img/shoulder_circles.png</imagePath2>
+        <imagePath3>/img/forward_slopes.png</imagePath3>
+        <imagePath4>/img/knee_steps.png</imagePath4>
+        <imagePath5>/img/side_plank_on_the_palms.png</imagePath5>
+        <imagePath6>/img/both_leg_lift.png</imagePath6>
+        <imagePath7>/img/reverse_crunch.png</imagePath7>
+        <imagePath8>/img/cross_over_crunch.png</imagePath8>
+        <imagePath9>/img/dead_bug.png</imagePath9>
+        <imagePath10>/img/toes_to_the_knee.png</imagePath10>
+    </imagePath>
+</util.Level>

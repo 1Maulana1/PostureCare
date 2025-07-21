@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Advance</level>
+    <exercise>
+        <exercise1>The clap</exercise1>
+        <exercise2>The spinner</exercise2>
+        <exercise3>Deflection</exercise3>
+        <exercise4>Head nod</exercise4>
+        <exercise5>Dead bug</exercise5>
+        <exercise6>Scissors</exercise6>
+        <exercise7>Heel slides with knee to chest</exercise7>
+        <exercise8>Side plank on the palms</exercise8>
+        <exercise9>Cat 1</exercise9>
+        <exercise10>Cat 2</exercise10>
+    </exercise>
+    <kalori>
+        <kcal>144 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 5</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/the_clap.png</imagePath1>
+        <imagePath2>/img/the_spinner.png</imagePath2>
+        <imagePath3>/img/deflection.png</imagePath3>
+        <imagePath4>/img/head_nod.png</imagePath4>
+        <imagePath5>/img/dead_bug.png</imagePath5>
+        <imagePath6>/img/scissors.png</imagePath6>
+        <imagePath7>/img/heel_slides_with_knee_to_chest.png</imagePath7>
+        <imagePath8>/img/side_plank_on_the_palms.png</imagePath8>
+        <imagePath9>/img/cat_1.png</imagePath9>
+        <imagePath10>/img/cat_2.png</imagePath10>
+    </imagePath>
+</util.Level>

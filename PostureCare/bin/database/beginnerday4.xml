@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Beginner</level>
+    <exercise>
+        <exercise1>The parallel</exercise1>
+        <exercise2>Twisting crunches</exercise2>
+        <exercise3>Baby pose</exercise3>
+        <exercise4>Arms behind the head</exercise4>
+        <exercise5>Cat 1</exercise5>
+        <exercise6>Cat 2</exercise6>
+        <exercise7>Reverse crunch</exercise7>
+    </exercise>
+    <kalori>
+        <kcal>65 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 4</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/the_parallel.png</imagePath1>
+        <imagePath2>/img/twisting_crunches.png</imagePath2>
+        <imagePath3>/img/baby_pose.png</imagePath3>
+        <imagePath4>/img/arms_behind_the_head.png</imagePath4>
+        <imagePath5>/img/cat_1.png</imagePath5>
+        <imagePath6>/img/cat_2.png</imagePath6>
+        <imagePath7>/img/reverse_crunch.png</imagePath7>
+    </imagePath>
+</util.Level>

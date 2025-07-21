@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Beginner</level>
+    <exercise>
+        <exercise1>The axis</exercise1>
+        <exercise2>Wide slopes</exercise2>
+        <exercise3>Lying arm circle</exercise3>
+        <exercise4>Hold the lotus</exercise4>
+        <exercise5>Leg lift</exercise5>
+        <exercise6>Both leg lift</exercise6>
+        <exercise7>Dead bug</exercise7>
+        <exercise8>Toes to the knee</exercise8>
+    </exercise>
+    <kalori>
+        <kcal>96 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 5</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/the_axis.png</imagePath1>
+        <imagePath2>/img/wide_slopes.png</imagePath2>
+        <imagePath3>/img/lying_arm_circle.png</imagePath3>
+        <imagePath4>/img/hold_the_lotus.png</imagePath4>
+        <imagePath5>/img/leg_lift.png</imagePath5>
+        <imagePath6>/img/both_leg_lift.png</imagePath6>
+        <imagePath7>/img/dead_bug.png</imagePath7>
+        <imagePath8>/img/toes_to_the_knee.png</imagePath8>
+    </imagePath>
+</util.Level>

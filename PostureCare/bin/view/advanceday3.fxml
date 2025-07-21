@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdvanceDay3Controller">
+   <children>
+      <VBox alignment="BASELINE_CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="40.0" prefWidth="435.0" />
+            <Label alignment="CENTER" prefWidth="75.0" text="Day 3" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Pane prefHeight="20.0" prefWidth="435.0" />
+            <Label styleClass="label-transparan" stylesheets="@../values/mystyle.css" text="11 exercise | 189 kcal">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Pane prefHeight="12.0" prefWidth="435.0" />
+            <Button fx:id="start" mnemonicParsing="false" onAction="#startExercise" styleClass="start-button" stylesheets="@../values/mystyle.css" text="START">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Pane prefHeight="37.0" prefWidth="435.0" />
+            <ScrollPane hbarPolicy="NEVER" prefHeight="533.0" prefWidth="435.0" styleClass="scrollpane-transparan" stylesheets="@../values/mystyle.css" vbarPolicy="NEVER">
+               <content>
+                  <VBox fx:id="previewExercise" alignment="TOP_CENTER" maxWidth="Infinity" prefHeight="535.0" prefWidth="419.0" spacing="10.0" />
+               </content>
+            </ScrollPane>
+
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

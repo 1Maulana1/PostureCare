@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="810.0" prefWidth="1315.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BeginnerController">
+   <children>
+      <BorderPane fx:id="mainPane" styleClass="root-pane" stylesheets="@../css/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" spacing="15.0">
+               <children>
+                  <Pane prefHeight="50.0" prefWidth="731.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Button layoutX="1177.0" layoutY="17.0" mnemonicParsing="false" onAction="#handleProfileClick" styleClass="icon-button">
+                           <graphic>
+                              <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/user.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="1139.0" layoutY="17.0" mnemonicParsing="false" onAction="#handleSettingsClick" styleClass="icon-button">
+                           <graphic>
+                              <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/settings.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="1101.0" layoutY="17.0" mnemonicParsing="false" onAction="#handleNotificationsClick" styleClass="icon-button">
+                           <graphic>
+                              <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/bell.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Text fill="#5d9cec" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="logo-text" text="PostureCare" />
+                     </children></Pane>
+               </children>
+            </HBox>
+            <Label fx:id="greetingLabel" styleClass="greeting-text" text="Halo, Nama Pengguna" />
+         </children>
+
+         <left>
+            <TextArea prefWidth="435.0" text="Area ini diisi untuk day 1 - 7" BorderPane.alignment="CENTER" />
+         </left>
+         <center>
+            <ScrollPane fitToWidth="true" prefHeight="703.0" prefWidth="799.0" BorderPane.alignment="CENTER">
+              <content>
+                <VBox prefWidth="863.0" spacing="50.0" style="-fx-padding: 20;">
+                  <children>
+                     <Label text="BEGINNER">
+                        <font>
+                           <Font size="30.0" />
+                        </font>
+                     </Label>
+
+                     <!-- Day 1 sampai Day 7 -->
+
+                     <!-- DAY 1 -->
+                     <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="774.0" styleClass="day-bar" stylesheets="@../css/mystyle.css">
+                        <children>
+                           <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                              <children>
+                                 <Label text="  Day 1">
+                                    <font><Font size="35.0" /></font>
+                                 </Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="8 Exercise">
+                                    <font><Font size="25.0" /></font>
+                                 </Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="95 kcal">
+                                    <font><Font size="25.0" /></font>
+                                 </Label>
+                                 <Pane prefHeight="100.0" prefWidth="768.0" />
+                                 <Button fx:id="day1" mnemonicParsing="false" onAction="#keDay1" styleClass="day-button" stylesheets="@../css/mystyle.css" text="→" textFill="WHITE">
+                                    <font><Font size="30.0" /></font>
+                                 </Button>
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                     <!-- DAY 2 -->
+                     <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="859.0" styleClass="day-bar" stylesheets="@../css/mystyle.css">
+                        <children>
+                           <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                              <children>
+                                 <Label text="  Day 2"><font><Font size="35.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="8 Exercise"><font><Font size="25.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="84 kcal"><font><Font size="25.0" /></font></Label>
+                                 <Pane prefHeight="100.0" prefWidth="768.0" />
+                                 <Button fx:id="day2" mnemonicParsing="false" onAction="#keDay2" styleClass="day-button" stylesheets="@../css/mystyle.css" text="→" textFill="WHITE"><font><Font size="30.0" /></font></Button>
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                     <!-- DAY 3 -->
+                     <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="859.0" styleClass="day-bar" stylesheets="@../css/mystyle.css">
+                        <children>
+                           <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                              <children>
+                                 <Label text="  Day 3"><font><Font size="35.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="8 Exercise"><font><Font size="25.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="91 kcal"><font><Font size="25.0" /></font></Label>
+                                 <Pane prefHeight="100.0" prefWidth="768.0" />
+                                 <Button fx:id="day3" mnemonicParsing="false" onAction="#keDay3" styleClass="day-button" stylesheets="@../css/mystyle.css" text="→" textFill="WHITE"><font><Font size="30.0" /></font></Button>
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                     <!-- DAY 4 -->
+                     <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="859.0" styleClass="day-bar" stylesheets="@../css/mystyle.css">
+                        <children>
+                           <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                              <children>
+                                 <Label text="  Day 4"><font><Font size="35.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="7 Exercise"><font><Font size="25.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="65 kcal"><font><Font size="25.0" /></font></Label>
+                                 <Pane prefHeight="100.0" prefWidth="768.0" />
+                                 <Button fx:id="day4" mnemonicParsing="false" onAction="#keDay4" styleClass="day-button" stylesheets="@../css/mystyle.css" text="→" textFill="WHITE"><font><Font size="30.0" /></font></Button>
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                     <!-- DAY 5 -->
+                     <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="859.0" styleClass="day-bar" stylesheets="@../css/mystyle.css">
+                        <children>
+                           <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                              <children>
+                                 <Label text="  Day 5"><font><Font size="35.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="8 Exercise"><font><Font size="25.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="96 kcal"><font><Font size="25.0" /></font></Label>
+                                 <Pane prefHeight="100.0" prefWidth="768.0" />
+                                 <Button fx:id="day5" mnemonicParsing="false" onAction="#keDay5" styleClass="day-button" stylesheets="@../css/mystyle.css" text="→" textFill="WHITE"><font><Font size="30.0" /></font></Button>
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                     <!-- DAY 6 -->
+                     <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="859.0" styleClass="day-bar" stylesheets="@../css/mystyle.css">
+                        <children>
+                           <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                              <children>
+                                 <Label text="  Day 6"><font><Font size="35.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="8 Exercise"><font><Font size="25.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="81 kcal"><font><Font size="25.0" /></font></Label>
+                                 <Pane prefHeight="100.0" prefWidth="768.0" />
+                                 <Button fx:id="day6" mnemonicParsing="false" onAction="#keDay6" styleClass="day-button" stylesheets="@../css/mystyle.css" text="→" textFill="WHITE"><font><Font size="30.0" /></font></Button>
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                     <!-- DAY 7 -->
+                     <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="859.0" styleClass="day-bar" stylesheets="@../css/mystyle.css">
+                        <children>
+                           <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                              <children>
+                                 <Label text="  Day 7"><font><Font size="35.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="8 Exercise"><font><Font size="25.0" /></font></Label>
+                                 <Label text=" | "><font><Font size="40.0" /></font></Label>
+                                 <Label styleClass="label-transparan" stylesheets="@../css/mystyle.css" text="95 kcal"><font><Font size="25.0" /></font></Label>
+                                 <Pane prefHeight="100.0" prefWidth="768.0" />
+                                 <Button fx:id="day7" mnemonicParsing="false" onAction="#keDay7" styleClass="day-button" stylesheets="@../css/mystyle.css" text="→" textFill="WHITE"><font><Font size="30.0" /></font></Button>
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                  </children>
+                </VBox>
+              </content>
+            </ScrollPane>
+         </center>
+         <top>
+            <VBox styleClass="header-container" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="60.0" spacing="15.0">
+                     <children>
+                        <Button fx:id="backButton" onAction="#handleBackToDashboard" styleClass="icon-button" stylesheets="@../css/style.css">
+                           <graphic>
+                              <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/back-arrow.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Text fill="#5d9cec" styleClass="logo-text" text="PostureCare" />
+                        <Pane HBox.hgrow="ALWAYS" />
+                        <Button mnemonicParsing="false" onAction="#handleNotificationsClick" styleClass="icon-button">
+                           <graphic>
+                              <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/bell.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#handleSettingsClick" styleClass="icon-button">
+                           <graphic>
+                              <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/settings.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#handleProfileClick" styleClass="icon-button">
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/user.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Label fx:id="greetingLabel1" styleClass="greeting-text" text="Halo, Nama Pengguna" />
+               </children>
+            </VBox>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

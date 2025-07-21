@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Advance</level>
+    <exercise>
+        <exercise1>Happy slopes</exercise1>
+        <exercise2>Side slopes</exercise2>
+        <exercise3>Lean forward</exercise3>
+        <exercise4>Reverse bridge with complication</exercise4>
+        <exercise5>Lying arm circle</exercise5>
+        <exercise6>Shoulder blade protraction</exercise6>
+        <exercise7>Single leg raises</exercise7>
+        <exercise8>Single leg lift</exercise8>
+        <exercise9>Sideway head lift with hold</exercise9>
+        <exercise10>Sideways head lift</exercise10>
+        <exercise11>The bow</exercise11>
+    </exercise>
+    <kalori>
+        <kcal>189 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 3</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/happy_slopes.png</imagePath1>
+        <imagePath2>/img/side_slopes.png</imagePath2>
+        <imagePath3>/img/lean_forward.png</imagePath3>
+        <imagePath4>/img/reverse_bridge_with_complication.png</imagePath4>
+        <imagePath5>/img/lying_arm_circle.png</imagePath5>
+        <imagePath6>/img/shoulder_blade_protraction.png</imagePath6>
+        <imagePath7>/img/single_leg_raises.png</imagePath7>
+        <imagePath8>/img/single_leg_lift.png</imagePath8>
+        <imagePath9>/img/sideway_head_lift_with_hold.png</imagePath9>
+        <imagePath10>/img/sideways_head_lift.png</imagePath10>
+        <imagePath11>/img/the_bow.png</imagePath11>
+    </imagePath>
+</util.Level>

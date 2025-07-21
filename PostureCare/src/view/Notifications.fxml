@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane styleClass="profile-page-root" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NotificationController">
+   <top>
+      <HBox alignment="CENTER_LEFT" spacing="20.0">
+         <children>
+            <Button fx:id="backButton" onAction="#handleBackToDashboard" styleClass="icon-button">
+               <graphic><ImageView fitHeight="24.0" fitWidth="24.0"><image><Image url="@../assets/back-arrow.png" /></image></ImageView></graphic>
+            </Button>
+            <Label styleClass="page-title" text="Pengingat Olahraga" />
+         </children>
+         <BorderPane.margin><Insets bottom="20.0" /></BorderPane.margin>
+      </HBox>
+   </top>
+   
+   <left>
+      <VBox prefWidth="400.0" spacing="15.0" styleClass="left-panel">
+         <Label styleClass="panel-title" text="Daftar Pengingat" />
+         <ListView fx:id="notificationListView" VBox.vgrow="ALWAYS" />
+      </VBox>
+   </left>
+   
+   <center>
+      <VBox spacing="20.0" styleClass="profile-content-pane">
+         <VBox styleClass="card" spacing="15.0">
+            <Label styleClass="card-title" text="Tambah / Edit Pengingat" />
+            <GridPane hgap="10.0" vgap="10.0">
+               <Label text="Pesan:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+               <TextField fx:id="messageField" promptText="Contoh: Waktunya peregangan!" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+               <Label text="Ulangi Setiap:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+               <HBox spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="intervalField" prefWidth="80.0" promptText="30" />
+                  <ComboBox fx:id="unitComboBox" prefWidth="100.0" />
+               </HBox>
+            </GridPane>
+            <HBox spacing="10.0">
+               <Button onAction="#handleAdd" text="Tambah Baru" />
+               <Button onAction="#handleUpdate" text="Simpan Perubahan" />
+               <Button onAction="#handleDelete" styleClass="button-danger" text="Hapus" />
+            </HBox>
+         </VBox>
+         <VBox styleClass="card" spacing="15.0">
+            <Label styleClass="card-title" text="Kontrol Pengingat" />
+            <ToggleButton fx:id="startStopButton" onAction="#handleStartStop" prefHeight="40.0" text="Mulai Pengingat" maxWidth="Infinity" />
+            <Label fx:id="statusLabel" text="Status: Tidak Aktif" />
+         </VBox>
+      </VBox>
+   </center>
+</BorderPane>

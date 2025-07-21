@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Beginner</level>
+    <exercise>
+        <exercise1>Side slopes</exercise1>
+        <exercise2>Happy slopes</exercise2>
+        <exercise3>Shoulder circles</exercise3>
+        <exercise4>Alternating knee to the chest</exercise4>
+        <exercise5>Ankle pumps</exercise5>
+        <exercise6>Lumbar flattening</exercise6>
+        <exercise7>Deflection</exercise7>
+        <exercise8>Head nod</exercise8>
+    </exercise>
+    <kalori>
+        <kcal>84 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 2</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/side_slopes.png</imagePath1>
+        <imagePath2>/img/happy_slopes.png</imagePath2>
+        <imagePath3>/img/shoulder_circles.png</imagePath3>
+        <imagePath4>/img/alternating_knee_to_the_chest.png</imagePath4>
+        <imagePath5>/img/ankle_pumps.png</imagePath5>
+        <imagePath6>/img/lumbar_flattening.png</imagePath6>
+        <imagePath7>/img/deflection.png</imagePath7>
+        <imagePath8>/img/head_nod.png</imagePath8>
+    </imagePath>
+</util.Level>

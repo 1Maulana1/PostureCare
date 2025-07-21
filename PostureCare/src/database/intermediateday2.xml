@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<util.Level>
+    <level>Intermediate</level>
+    <exercise>
+        <exercise1>Side slopes</exercise1>
+        <exercise2>Happy slopes</exercise2>
+        <exercise3>Baby position</exercise3>
+        <exercise4>The hammer</exercise4>
+        <exercise5>The parallel</exercise5>
+        <exercise6>Twisting crunches</exercise6>
+        <exercise7>Assisted side hip raise</exercise7>
+        <exercise8>Leg lift 1</exercise8>
+        <exercise9>Leg lift 2</exercise9>
+        <exercise10>Ankle pumps</exercise10>
+    </exercise>
+    <kalori>
+        <kcal>127 kcal</kcal>
+    </kalori>
+    <day>
+        <hari>Day 2</hari>
+    </day>
+    <imagePath>
+        <imagePath1>/img/side_slopes.png</imagePath1>
+        <imagePath2>/img/happy_slopes.png</imagePath2>
+        <imagePath3>/img/baby_position.png</imagePath3>
+        <imagePath4>/img/the_hammer.png</imagePath4>
+        <imagePath5>/img/the_parallel.png</imagePath5>
+        <imagePath6>/img/twisting_crunches.png</imagePath6>
+        <imagePath7>/img/assisted_side_hip_raise.png</imagePath7>
+        <imagePath8>/img/leg_lift_1.png</imagePath8>
+        <imagePath9>/img/leg_lift_2.png</imagePath9>
+        <imagePath10>/img/ankle_pumps.png</imagePath10>
+    </imagePath>
+</util.Level>

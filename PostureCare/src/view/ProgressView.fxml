@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane styleClass="progress-page-root" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProgressController">
+   <padding>
+      <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+   </padding>
+   
+   <top>
+      <HBox alignment="CENTER_LEFT" spacing="20.0">
+         <children>
+            <Button fx:id="backButton" onAction="#handleBackToDashboard" styleClass="icon-button">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image><Image url="@../assets/back-arrow.png" /></image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="pageTitleLabel" styleClass="page-title" text="Progres Latihan Saya" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="20.0" />
+         </BorderPane.margin>
+      </HBox>
+   </top>
+   
+   <left>
+      <VBox prefWidth="300.0" spacing="20.0" styleClass="left-panel">
+         <children>
+            <VBox>
+               <Label styleClass="panel-title" text="Progres Total" />
+               <Label styleClass="panel-subtitle" text="Ringkasan seluruh latihan Anda." />
+            </VBox>
+            <VBox styleClass="summary-box">
+               <Label styleClass="summary-title" text="Total Kalori Terbakar" />
+               <Label fx:id="totalCaloriesLabel" styleClass="summary-value" text="0 Kcal" />
+            </VBox>
+            <VBox styleClass="summary-box">
+               <Label styleClass="summary-title" text="Total Durasi Latihan" />
+               <Label fx:id="totalDurationLabel" styleClass="summary-value" text="0 Menit" />
+            </VBox>
+             <VBox styleClass="summary-box">
+               <Label styleClass="summary-title" text="Total Hari Aktif" />
+               <Label fx:id="totalExercisesLabel" styleClass="summary-value" text="0 Hari" />
+            </VBox>
+            <VBox styleClass="summary-box">
+               <Label styleClass="summary-title" text="Level Anda Saat Ini" />
+               <Label fx:id="currentLevelLabel" styleClass="summary-value" text="Beginner" />
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   
+   <center>
+      <VBox styleClass="card, chart-container">
+         <children>
+            <HBox alignment="CENTER_LEFT" spacing="15.0">
+               <VBox.margin><Insets bottom="15.0" /></VBox.margin>
+               <Label styleClass="card-title" text="Grafik Progres Latihan" />
+               <Pane HBox.hgrow="ALWAYS" />
+               <ComboBox fx:id="levelFilterComboBox" promptText="Filter Level" styleClass="level-combo" />
+               <HBox fx:id="chartOptionsBox" alignment="CENTER_LEFT" spacing="10.0" />
+            </HBox>
+            <LineChart fx:id="dailyProgressLineChart" animated="true" VBox.vgrow="ALWAYS">
+               <xAxis><CategoryAxis fx:id="dailyXAxis" side="BOTTOM" /></xAxis>
+               <yAxis><NumberAxis fx:id="dailyYAxis" side="LEFT" /></yAxis>
+            </LineChart>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
