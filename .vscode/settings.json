@@ -1,0 +1,17 @@
+{
+    "java.project.sourcePaths": [
+        "ASD",
+        "FPA\\wallahi\\src",
+        "TBESAR"
+    ],
+    "java.project.referencedLibraries": {
+        "include": [
+            "c:\\Users\\USER\\Downloads\\xstream-1.4.20.jar",
+            "c:\\Users\\USER\\Downloads\\xmlpull-1.1.3.1.jar",
+            "c:\\Users\\USER\\Downloads\\mxparser-1.2.2.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\USER\\Downloads\\Compressed\\xstream-1.4.20.jar"
+        ]
+    }
+}

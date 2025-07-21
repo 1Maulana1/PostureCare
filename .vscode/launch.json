@@ -1,0 +1,154 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FlightDataAnalysis",
+            "request": "launch",
+            "mainClass": "src.FlightDataAnalysis",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "src.log.Main",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "KasusPencarian",
+            "request": "launch",
+            "mainClass": "kasusPencarian.src.kasuspencarian.KasusPencarian",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "KasusPencarian",
+            "request": "launch",
+            "mainClass": "kasusPencarian1.src.kasuspencarian.KasusPencarian",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "KasusPencarian",
+            "request": "launch",
+            "mainClass": "kasuspencarian.src.kasuspencarian.KasusPencarian",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "PencarianBiner",
+            "request": "launch",
+            "mainClass": "Bin.PencarianBiner",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "BinSe",
+            "request": "launch",
+            "mainClass": "Bin.BinSe",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "MainNotf",
+            "request": "launch",
+            "mainClass": "MainNotf",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "MainNotf",
+            "request": "launch",
+            "mainClass": "src.pembuatnot.MainNotf",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "MainNotf",
+            "request": "launch",
+            "mainClass": "src.beg.MainNotf",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "Main24523022",
+            "request": "launch",
+            "mainClass": "isp24523022.Main24523022",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "Main24523022",
+            "request": "launch",
+            "mainClass": "Main24523022",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "src.beg.MainApp",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "src.inter.MainApp",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "Intermediete",
+            "request": "launch",
+            "mainClass": "src.inter.Intermediete",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "intermediete",
+            "request": "launch",
+            "mainClass": "src.inter.intermediete",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.spinefit.Main",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AdvMain",
+            "request": "launch",
+            "mainClass": "src.Level.Advanced.AdvMain",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "BegMain",
+            "request": "launch",
+            "mainClass": "src.Level.Beginner.BegMain",
+            "projectName": "vscode_71559de3"
+        },
+        {
+            "type": "java",
+            "name": "InterMain",
+            "request": "launch",
+            "mainClass": "src.Level.Intermediate.InterMain",
+            "projectName": "vscode_71559de3"
+        }
+    ]
+}

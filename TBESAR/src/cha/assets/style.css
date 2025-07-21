@@ -1,0 +1,115 @@
+.root {
+    -fx-background-color: #f0f2f5; /* Light grey background */
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.top-section {
+    -fx-background-color: #ffffff; /* White background for top section */
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1px 0;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 5, 0, 0, 2);
+}
+
+.page-title {
+    -fx-font-size: 2.2em; /* Larger font for title */
+    -fx-font-weight: bold;
+    -fx-text-fill: #3f51b5; /* Deep blue */
+}
+
+.level-combo .arrow-button .arrow {
+    -fx-background-color: #3f51b5;
+}
+
+.level-combo {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 1.1em;
+    -fx-padding: 5px 10px;
+}
+
+.current-level-label {
+    -fx-font-size: 1.3em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #616161; /* Dark grey */
+}
+
+.chart-container {
+    -fx-background-color: #ffffff; /* White background for chart area */
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 5); /* Soft shadow */
+    -fx-padding: 20px;
+    -fx-max-width: 900px;
+}
+
+.summary-grid {
+    -fx-padding: 15px;
+    -fx-background-color: #e8eaf6; /* Lighter blue for summary */
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-hgap: 30px;
+    -fx-vgap: 15px;
+}
+
+.summary-label {
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3f51b5; /* Matching blue */
+}
+
+.line-chart .chart-plot-background {
+    -fx-background-color: transparent; /* Transparan agar VBox background terlihat */
+}
+
+.line-chart .chart-series-line {
+    -fx-stroke: #f57c00; /* Orange line */
+    -fx-stroke-width: 3px;
+}
+
+.line-chart .series-line { /* Ensures the line is colored for all series */
+    -fx-stroke: #f57c00;
+}
+
+.line-chart .chart-vertical-grid-lines {
+    -fx-stroke: #e0e0e0;
+}
+
+.line-chart .chart-horizontal-grid-lines {
+    -fx-stroke: #e0e0e0;
+}
+
+.line-chart .axis-label {
+    -fx-font-size: 1.1em;
+    -fx-font-weight: bold;
+}
+
+.line-chart .chart-title {
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #424242;
+}
+
+.chart-options {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px 0 0 0;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 5, 0, 0, 2);
+}
+
+.chart-options .button {
+    -fx-background-color: #9fa8da; /* Light blue button */
+    -fx-text-fill: white;
+    -fx-font-size: 1.0em;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.chart-options .button:hover {
+    -fx-background-color: #7986cb; /* Darker blue on hover */
+}
